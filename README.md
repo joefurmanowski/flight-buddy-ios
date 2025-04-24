@@ -36,24 +36,46 @@
 ## Key Implementations
 
 - AirLabs Data API
+  - Real-time flight status and global aviation database
 - Google Firebase
+  - Authentication
   - Firestore allows for storage of users, airports, and users' social interactions
 - FlagKit
+  - Styled flag icon assets
 - MVC methodology
-- Observer pattern
+  - Separation of the app's key components
+- Observer pattern with Notifications service
+  - Update models and views based on subscriptions to data updates
 - UIKit
   - UINavigationController, UITabBarController, UITableViewController, Custom UITableViewCell, UISlider, UIStepper, UISearchController, UIRefreshControl, MapView, UIScrollView, UIImagePickerController, …
 - LocalAuthentication
   - Supports biometric authentication via Face ID and Touch ID
 - Security
-  - Save user credentials to Keychain
-- CoreLocation and MapKit
+  - Secure storage to and retrieval of user credentials from iOS Keychain
+- CoreLocation
+  - User location access
+- MapKit
+  - Supports building map-centric views
 - MKGeodesicPolyline
-  - Render geodesic polylines between coordinates over the curvature of the earth
+  - Render geodesic polylines between coordinates (e.g., flight paths) over the curvature of the earth
 - CoreGraphics
   - Supports rotation of map annotations
 - Contacts
-- Notification service
+  - Enables communication with Apple Maps to provide the user directions to an airport
+
+## Screenshots
+
+<div align="center">
+  <img src="Screenshots/Screenshot_1.png" width="200"/>
+  <img src="Screenshots/Screenshot_2.png" width="200"/>
+  <img src="Screenshots/Screenshot_3.png" width="200"/>
+  <img src="Screenshots/Screenshot_4.png" width="200"/>
+  <img src="Screenshots/Screenshot_5.png" width="200"/>
+  <img src="Screenshots/Screenshot_6.png" width="200"/>
+  <img src="Screenshots/Screenshot_7.png" width="200"/>
+  <img src="Screenshots/Screenshot_8.png" width="200"/>
+  <img src="Screenshots/Screenshot_9.png" width="200"/>
+</div>
 
 ## Credits
 
