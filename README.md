@@ -46,6 +46,8 @@
   - Separation of the app's key components
 - Observer pattern with Notifications service
   - Update models and views based on subscriptions to data updates
+- Codable protocol and JSONDecoder
+  - Supports decoding of JSON data
 - UIKit
   - UINavigationController, UITabBarController, UITableViewController, Custom UITableViewCell, UISlider, UIStepper, UISearchController, UIRefreshControl, MapView, UIScrollView, UIImagePickerController, …
 - LocalAuthentication
