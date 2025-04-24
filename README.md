@@ -61,7 +61,7 @@
 - MKGeodesicPolyline
   - Render geodesic polylines between coordinates (e.g., flight paths) over the curvature of the earth
 - CoreGraphics
-  - Supports rotation of map annotations
+  - Enables the rotation of map annotations (e.g., rotating a flight icon to match its actual heading or direction of travel)
 - Contacts
   - Enables communication with Apple Maps to provide the user directions to an airport
 
